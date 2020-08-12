@@ -1,0 +1,14 @@
+first line in m1.txt
+
+Code:
+
+mkdir project
+git init
+touch m1.txt
+touch m2.txt
+git add m1.txt
+git add m2.txt
+git status
+nano m1.txt "first line in m1.txt"
+git commit -m"my first commit m1.txt"
+
