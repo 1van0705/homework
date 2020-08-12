@@ -11,4 +11,21 @@ git add m2.txt
 git status
 nano m1.txt "first line in m1.txt"
 git commit -m"my first commit m1.txt"
-
+git branch new1
+git branch
+git checkout new1
+touch m3.txt
+touch m4.txt
+git add m3.txt
+git add m4.txt
+git commit -m"branch new1 test"
+ls -la
+git checkout master
+ls -la
+nano m3.txt "123"
+more m3.txt
+git stash
+git stash list
+nano m4.txt "456"
+git stash
+git stash list
